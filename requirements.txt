@@ -1,0 +1,20 @@
+streamlit
+
+langchain
+langchain-community
+langchain-chroma
+langchain-ollama
+langchain-text-splitters
+
+chromadb
+pymupdf
+python-dotenv
+tqdm
+pandas
+watchdog
+
+# Fast bulk embedding backend (optional but strongly recommended for
+# bulk ingestion of large PDF corpora — see scripts/bulk_ingest.py).
+# Falls back to Ollama automatically if these aren't installed.
+sentence-transformers
+torch

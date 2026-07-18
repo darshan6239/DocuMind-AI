@@ -1,0 +1,82 @@
+2026-07-18 21:26:15 | WARNING  | core.embeddings | Fast embedding backend unavailable (No module named 'sentence_transformers'); falling back to Ollama. Install 'sentence-transformers' and 'torch' for much faster bulk ingestion.
+2026-07-18 21:26:29 | INFO     | utils.file_utils | Saved upload 'Python_Question_Bank_with_Answers.pdf' (132465 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\Python_Question_Bank_with_Answers.pdf
+2026-07-18 21:26:29 | INFO     | core.text_processor | Extracted 14 non-empty page(s) from 'Python_Question_Bank_with_Answers.pdf'
+2026-07-18 21:26:29 | INFO     | core.text_processor | Split 'Python_Question_Bank_with_Answers.pdf' into 76 chunk(s)
+2026-07-18 21:26:55 | INFO     | core.vector_store | Added 76 chunk(s) to the vector store
+2026-07-18 21:26:55 | INFO     | utils.file_utils | Saved upload 'PYTHON QUESTION BANK (BASIC TO OOPS).pdf' (171683 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\PYTHON QUESTION BANK (BASIC TO OOPS).pdf
+2026-07-18 21:26:55 | INFO     | core.text_processor | Extracted 11 non-empty page(s) from 'PYTHON QUESTION BANK (BASIC TO OOPS).pdf'
+2026-07-18 21:26:55 | INFO     | core.text_processor | Split 'PYTHON QUESTION BANK (BASIC TO OOPS).pdf' into 21 chunk(s)
+2026-07-18 21:27:01 | INFO     | core.vector_store | Added 21 chunk(s) to the vector store
+2026-07-18 21:27:01 | INFO     | utils.file_utils | Saved upload 'Offer_Letter_631417_1498925.pdf' (907575 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\Offer_Letter_631417_1498925.pdf
+2026-07-18 21:27:02 | INFO     | core.text_processor | Extracted 2 non-empty page(s) from 'Offer_Letter_631417_1498925.pdf'
+2026-07-18 21:27:02 | INFO     | core.text_processor | Split 'Offer_Letter_631417_1498925.pdf' into 4 chunk(s)
+2026-07-18 21:27:03 | INFO     | core.vector_store | Added 4 chunk(s) to the vector store
+2026-07-18 21:27:03 | INFO     | utils.file_utils | Saved upload 'SubVerse_AI_JD_Interview_QnA.pdf' (11765 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\SubVerse_AI_JD_Interview_QnA.pdf
+2026-07-18 21:27:03 | INFO     | core.text_processor | Extracted 4 non-empty page(s) from 'SubVerse_AI_JD_Interview_QnA.pdf'
+2026-07-18 21:27:03 | INFO     | core.text_processor | Split 'SubVerse_AI_JD_Interview_QnA.pdf' into 16 chunk(s)
+2026-07-18 21:27:08 | INFO     | core.vector_store | Added 16 chunk(s) to the vector store
+2026-07-18 21:27:08 | INFO     | utils.file_utils | Saved upload 'Darshan_Patil_Interview_Prep_SubVerseAI (1).pdf' (377671 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\Darshan_Patil_Interview_Prep_SubVerseAI (1).pdf
+2026-07-18 21:27:08 | INFO     | core.text_processor | Extracted 7 non-empty page(s) from 'Darshan_Patil_Interview_Prep_SubVerseAI (1).pdf'
+2026-07-18 21:27:08 | INFO     | core.text_processor | Split 'Darshan_Patil_Interview_Prep_SubVerseAI (1).pdf' into 29 chunk(s)
+2026-07-18 21:27:16 | INFO     | core.vector_store | Added 29 chunk(s) to the vector store
+2026-07-18 21:27:16 | INFO     | utils.file_utils | Saved upload 'SubVerse_AI_Interview_QnA.pdf' (17604 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\SubVerse_AI_Interview_QnA.pdf
+2026-07-18 21:27:16 | INFO     | core.text_processor | Extracted 6 non-empty page(s) from 'SubVerse_AI_Interview_QnA.pdf'
+2026-07-18 21:27:16 | INFO     | core.text_processor | Split 'SubVerse_AI_Interview_QnA.pdf' into 25 chunk(s)
+2026-07-18 21:27:23 | INFO     | core.vector_store | Added 25 chunk(s) to the vector store
+2026-07-18 21:27:23 | INFO     | utils.file_utils | Saved upload 'Darshan_Patil_Interview_Prep_SubVerseAI.pdf' (377671 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\Darshan_Patil_Interview_Prep_SubVerseAI.pdf
+2026-07-18 21:27:23 | INFO     | core.text_processor | Extracted 7 non-empty page(s) from 'Darshan_Patil_Interview_Prep_SubVerseAI.pdf'
+2026-07-18 21:27:23 | INFO     | core.text_processor | Split 'Darshan_Patil_Interview_Prep_SubVerseAI.pdf' into 29 chunk(s)
+2026-07-18 21:27:33 | INFO     | core.vector_store | Added 29 chunk(s) to the vector store
+2026-07-18 21:27:33 | INFO     | utils.file_utils | Saved upload 'certificate-sw5ohiwocdoi-1784106706.pdf' (116410 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\certificate-sw5ohiwocdoi-1784106706.pdf
+2026-07-18 21:27:33 | INFO     | core.text_processor | Extracted 1 non-empty page(s) from 'certificate-sw5ohiwocdoi-1784106706.pdf'
+2026-07-18 21:27:33 | INFO     | core.text_processor | Split 'certificate-sw5ohiwocdoi-1784106706.pdf' into 1 chunk(s)
+2026-07-18 21:27:33 | INFO     | core.vector_store | Added 1 chunk(s) to the vector store
+2026-07-18 21:27:33 | INFO     | utils.file_utils | Saved upload 'certificate-5ssg9hjyg7we-1784106362.pdf' (107272 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\certificate-5ssg9hjyg7we-1784106362.pdf
+2026-07-18 21:27:33 | INFO     | core.text_processor | Extracted 1 non-empty page(s) from 'certificate-5ssg9hjyg7we-1784106362.pdf'
+2026-07-18 21:27:33 | INFO     | core.text_processor | Split 'certificate-5ssg9hjyg7we-1784106362.pdf' into 1 chunk(s)
+2026-07-18 21:27:33 | INFO     | core.vector_store | Added 1 chunk(s) to the vector store
+2026-07-18 21:27:33 | INFO     | utils.file_utils | Saved upload 'Profile (1).pdf' (48087 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\Profile (1).pdf
+2026-07-18 21:27:33 | INFO     | core.text_processor | Extracted 2 non-empty page(s) from 'Profile (1).pdf'
+2026-07-18 21:27:33 | INFO     | core.text_processor | Split 'Profile (1).pdf' into 4 chunk(s)
+2026-07-18 21:27:34 | INFO     | core.vector_store | Added 4 chunk(s) to the vector store
+2026-07-18 21:27:34 | INFO     | utils.file_utils | Saved upload 'LinkedIn with Claude.pdf' (235073 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\LinkedIn with Claude.pdf
+2026-07-18 21:27:34 | INFO     | core.text_processor | Extracted 5 non-empty page(s) from 'LinkedIn with Claude.pdf'
+2026-07-18 21:27:34 | INFO     | core.text_processor | Split 'LinkedIn with Claude.pdf' into 9 chunk(s)
+2026-07-18 21:27:37 | INFO     | core.vector_store | Added 9 chunk(s) to the vector store
+2026-07-18 21:27:37 | INFO     | utils.file_utils | Saved upload 'Admission Form BE.pdf' (437693 bytes) to F:\GITHUB REPOS\AI Project Repo\RAGs\DocuMind-AI\data\uploads\Admission Form BE.pdf
+2026-07-18 21:27:37 | INFO     | core.text_processor | Extracted 0 non-empty page(s) from 'Admission Form BE.pdf'
+2026-07-18 21:27:37 | WARNING  | core.text_processor | No extractable text found in 'Admission Form BE.pdf'
+2026-07-18 21:28:05 | WARNING  | core.embeddings | Fast embedding backend unavailable (No module named 'sentence_transformers'); falling back to Ollama. Install 'sentence-transformers' and 'torch' for much faster bulk ingestion.
+2026-07-18 21:32:21 | INFO     | core.vector_store | Deleted 29 chunk(s) for source 'Darshan_Patil_Interview_Prep_SubVerseAI (1).pdf'
+2026-07-18 21:32:21 | INFO     | utils.file_utils | Deleted uploaded file 'Darshan_Patil_Interview_Prep_SubVerseAI (1).pdf'
+2026-07-18 21:32:21 | INFO     | services.document_service | Removed document 'Darshan_Patil_Interview_Prep_SubVerseAI (1).pdf' (29 chunks)
+2026-07-18 21:32:21 | INFO     | core.vector_store | Deleted 29 chunk(s) for source 'Darshan_Patil_Interview_Prep_SubVerseAI.pdf'
+2026-07-18 21:32:21 | INFO     | utils.file_utils | Deleted uploaded file 'Darshan_Patil_Interview_Prep_SubVerseAI.pdf'
+2026-07-18 21:32:21 | INFO     | services.document_service | Removed document 'Darshan_Patil_Interview_Prep_SubVerseAI.pdf' (29 chunks)
+2026-07-18 21:32:22 | INFO     | core.vector_store | Deleted 9 chunk(s) for source 'LinkedIn with Claude.pdf'
+2026-07-18 21:32:22 | INFO     | utils.file_utils | Deleted uploaded file 'LinkedIn with Claude.pdf'
+2026-07-18 21:32:22 | INFO     | services.document_service | Removed document 'LinkedIn with Claude.pdf' (9 chunks)
+2026-07-18 21:32:23 | INFO     | core.vector_store | Deleted 4 chunk(s) for source 'Offer_Letter_631417_1498925.pdf'
+2026-07-18 21:32:23 | INFO     | utils.file_utils | Deleted uploaded file 'Offer_Letter_631417_1498925.pdf'
+2026-07-18 21:32:23 | INFO     | services.document_service | Removed document 'Offer_Letter_631417_1498925.pdf' (4 chunks)
+2026-07-18 21:32:24 | INFO     | core.vector_store | Deleted 21 chunk(s) for source 'PYTHON QUESTION BANK (BASIC TO OOPS).pdf'
+2026-07-18 21:32:24 | INFO     | utils.file_utils | Deleted uploaded file 'PYTHON QUESTION BANK (BASIC TO OOPS).pdf'
+2026-07-18 21:32:24 | INFO     | services.document_service | Removed document 'PYTHON QUESTION BANK (BASIC TO OOPS).pdf' (21 chunks)
+2026-07-18 21:32:24 | INFO     | core.vector_store | Deleted 4 chunk(s) for source 'Profile (1).pdf'
+2026-07-18 21:32:24 | INFO     | utils.file_utils | Deleted uploaded file 'Profile (1).pdf'
+2026-07-18 21:32:24 | INFO     | services.document_service | Removed document 'Profile (1).pdf' (4 chunks)
+2026-07-18 21:32:25 | INFO     | core.vector_store | Deleted 76 chunk(s) for source 'Python_Question_Bank_with_Answers.pdf'
+2026-07-18 21:32:25 | INFO     | utils.file_utils | Deleted uploaded file 'Python_Question_Bank_with_Answers.pdf'
+2026-07-18 21:32:25 | INFO     | services.document_service | Removed document 'Python_Question_Bank_with_Answers.pdf' (76 chunks)
+2026-07-18 21:32:25 | INFO     | core.vector_store | Deleted 25 chunk(s) for source 'SubVerse_AI_Interview_QnA.pdf'
+2026-07-18 21:32:25 | INFO     | utils.file_utils | Deleted uploaded file 'SubVerse_AI_Interview_QnA.pdf'
+2026-07-18 21:32:25 | INFO     | services.document_service | Removed document 'SubVerse_AI_Interview_QnA.pdf' (25 chunks)
+2026-07-18 21:32:26 | INFO     | core.vector_store | Deleted 16 chunk(s) for source 'SubVerse_AI_JD_Interview_QnA.pdf'
+2026-07-18 21:32:26 | INFO     | utils.file_utils | Deleted uploaded file 'SubVerse_AI_JD_Interview_QnA.pdf'
+2026-07-18 21:32:26 | INFO     | services.document_service | Removed document 'SubVerse_AI_JD_Interview_QnA.pdf' (16 chunks)
+2026-07-18 21:32:27 | INFO     | core.vector_store | Deleted 1 chunk(s) for source 'certificate-5ssg9hjyg7we-1784106362.pdf'
+2026-07-18 21:32:27 | INFO     | utils.file_utils | Deleted uploaded file 'certificate-5ssg9hjyg7we-1784106362.pdf'
+2026-07-18 21:32:27 | INFO     | services.document_service | Removed document 'certificate-5ssg9hjyg7we-1784106362.pdf' (1 chunks)
+2026-07-18 21:32:27 | INFO     | core.vector_store | Deleted 1 chunk(s) for source 'certificate-sw5ohiwocdoi-1784106706.pdf'
+2026-07-18 21:32:27 | INFO     | utils.file_utils | Deleted uploaded file 'certificate-sw5ohiwocdoi-1784106706.pdf'
+2026-07-18 21:32:27 | INFO     | services.document_service | Removed document 'certificate-sw5ohiwocdoi-1784106706.pdf' (1 chunks)

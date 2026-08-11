@@ -75,11 +75,9 @@ def generate_answer(
             "to answer that question.",
             [],
         )
-
     context = format_context(chunks)
     messages = build_messages(question, context, history)
 
     llm = get_llm()
     response = llm.invoke(messages)
-
     return response.content, chunks

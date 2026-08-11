@@ -56,7 +56,6 @@ def main() -> None:
     last_report = {"count": 0, "time": time.perf_counter()}
 
     def report_progress(stats):
-        # Print a lightweight running total every ~50 processed files.
         if stats.processed - last_report["count"] >= 50:
             elapsed = time.perf_counter() - last_report["time"]
             rate = (stats.processed - last_report["count"]) / elapsed if elapsed > 0 else 0

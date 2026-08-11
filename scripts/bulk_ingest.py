@@ -52,7 +52,6 @@ def main() -> None:
     if not root.exists() or not root.is_dir():
         print(f"Error: '{root}' is not a valid directory.")
         sys.exit(1)
-
     print(f"Scanning '{root}' for PDFs (recursive={not args.no_recursive})...")
     last_report = {"count": 0, "time": time.perf_counter()}
 

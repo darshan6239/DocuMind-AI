@@ -3,9 +3,7 @@ Core: retrieval-augmented generation engine. Combines vector search
 with the Ollama chat model to produce grounded, cited answers.
 """
 from typing import Dict, List, Optional, Tuple
-
 from langchain_core.documents import Document
-
 from config import TOP_K, MAX_HISTORY_TURNS
 from core.llm import get_llm
 from core.vector_store import similarity_search

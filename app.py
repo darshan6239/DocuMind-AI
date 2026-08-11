@@ -16,5 +16,4 @@ selected_source = render_sidebar()
 st.title("DocuMind AI")
 st.caption("Enterprise Document Intelligence Platform")
 st.divider()
-
 render_chat(source_filter=selected_source)

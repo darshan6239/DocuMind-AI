@@ -2,10 +2,8 @@
 Core: persistent Chroma vector store management.
 """
 from typing import List, Optional
-
 from langchain_chroma import Chroma
 from langchain_core.documents import Document
-
 from config import VECTOR_DB_DIR, TOP_K
 from core.embeddings import get_embeddings, get_backend_name
 from utils.logger import get_logger
@@ -16,7 +14,6 @@ COLLECTION_NAME = "documind_collection"
 _BACKEND_MARKER_FILE = VECTOR_DB_DIR / ".embedding_backend"
 
 _vector_store: Optional[Chroma] = None
-
 
 def _check_backend_consistency(current_backend: str) -> None:
     """

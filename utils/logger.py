@@ -41,7 +41,6 @@ def get_logger(name: str = "documind") -> logging.Logger:
             encoding="utf-8",
         )
         file_handler.setFormatter(formatter)
-        logger.addHandler(file_handler)
-
+        logger.addHandler(file_handler
     _LOGGERS[name] = logger
     return logger

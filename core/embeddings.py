@@ -18,7 +18,6 @@ Two backends are supported:
 from typing import List, Optional
 
 from langchain_core.embeddings import Embeddings
-
 from config import EMBEDDING_MODEL, FAST_EMBED_MODEL, OLLAMA_BASE_URL, USE_FAST_BULK_EMBEDDER
 from utils.logger import get_logger
 

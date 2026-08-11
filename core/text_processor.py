@@ -4,11 +4,9 @@ LangChain Document objects ready for embedding.
 """
 from pathlib import Path
 from typing import List
-
 import fitz  # pymupdf
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-
 from config import CHUNK_SIZE, CHUNK_OVERLAP
 from utils.logger import get_logger
 from utils.timer import timed

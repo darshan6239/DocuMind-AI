@@ -2,7 +2,6 @@
 Small general-purpose helper functions used across the UI and services.
 """
 from datetime import datetime
-
 def format_bytes(size_bytes: float) -> str:
     """Format a byte count as a human-readable string (e.g. '2.3 MB')."""
     size = float(size_bytes)

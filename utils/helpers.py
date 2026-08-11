@@ -19,12 +19,10 @@ def truncate_text(text: str, max_length: int = 300) -> str:
         return text
     return text[:max_length].rstrip() + "..."
 
-
 def format_timestamp(dt: datetime = None) -> str:
     """Format a datetime (default: now) as 'YYYY-MM-DD HH:MM'."""
     dt = dt or datetime.now()
     return dt.strftime("%Y-%m-%d %H:%M")
-
 
 def pluralize(count: int, singular: str, plural: str = None) -> str:
     """Return '<count> <singular|plural>' with correct pluralization."""

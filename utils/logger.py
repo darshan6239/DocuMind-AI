@@ -4,9 +4,7 @@ Centralized logging configuration for DocuMind AI.
 import logging
 import sys
 from logging.handlers import RotatingFileHandler
-
 from config import LOG_DIR, LOG_LEVEL
-
 _LOGGERS = {}
 
 LOG_FORMAT = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"

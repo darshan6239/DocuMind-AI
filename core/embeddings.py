@@ -21,7 +21,6 @@ from config import EMBEDDING_MODEL, FAST_EMBED_MODEL, OLLAMA_BASE_URL, USE_FAST_
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
-
 _embeddings: Optional[Embeddings] = None
 _backend_name: Optional[str] = None
 

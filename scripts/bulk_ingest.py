@@ -97,6 +97,5 @@ def main() -> None:
         if len(stats.errors) > 20:
             print(f"    ... and {len(stats.errors) - 20} more")
 
-
 if __name__ == "__main__":
     main()

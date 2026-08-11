@@ -20,7 +20,6 @@ def validate_file_extension(filename: str) -> ValidationResult:
         return ValidationResult(False, f"Unsupported file type '{suffix}'. Supported: {supported}")
     return ValidationResult(True)
 
-
 def validate_file_size(size_bytes: int) -> ValidationResult:
     """Check that a file's size does not exceed the configured maximum."""
     size_mb = size_bytes / (1024 * 1024)
@@ -29,7 +28,6 @@ def validate_file_size(size_bytes: int) -> ValidationResult:
             False, f"File is {size_mb:.1f} MB, which exceeds the {MAX_FILE_SIZE_MB} MB limit."
         )
     return ValidationResult(True)
-
 
 def validate_upload(filename: str, size_bytes: int) -> ValidationResult:
     """Run all validation checks for an uploaded file."""
@@ -42,7 +40,6 @@ def validate_upload(filename: str, size_bytes: int) -> ValidationResult:
         return size_result
 
     return ValidationResult(True)
-
 
 def validate_question(question: str) -> ValidationResult:
     """Validate a user's chat question isn't empty or whitespace-only."""

@@ -3,7 +3,6 @@ Small general-purpose helper functions used across the UI and services.
 """
 from datetime import datetime
 
-
 def format_bytes(size_bytes: float) -> str:
     """Format a byte count as a human-readable string (e.g. '2.3 MB')."""
     size = float(size_bytes)
@@ -12,7 +11,6 @@ def format_bytes(size_bytes: float) -> str:
             return f"{size:.1f} {unit}" if unit != "B" else f"{int(size)} {unit}"
         size /= 1024
     return f"{size:.1f} GB"
-
 
 def truncate_text(text: str, max_length: int = 300) -> str:
     """Truncate text to a maximum length, appending an ellipsis if cut."""

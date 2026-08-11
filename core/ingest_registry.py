@@ -41,7 +41,6 @@ def compute_file_hash(file_path: Path, chunk_size: int = 1024 * 1024) -> str:
             hasher.update(block)
     return hasher.hexdigest()
 
-
 class IngestRegistry:
     """
     Thread-safe wrapper around a SQLite table tracking which file hashes

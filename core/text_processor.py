@@ -13,7 +13,6 @@ from utils.timer import timed
 
 logger = get_logger(__name__)
 
-
 def extract_text_from_pdf(file_path: Path) -> List[Document]:
     """
     Extract text from a PDF file, one Document per non-empty page.
@@ -44,7 +43,6 @@ def extract_text_from_pdf(file_path: Path) -> List[Document]:
             )
     finally:
         pdf.close()
-
     logger.info(f"Extracted {len(documents)} non-empty page(s) from '{file_path.name}'")
     return documents
 

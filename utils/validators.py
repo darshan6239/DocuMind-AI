@@ -6,8 +6,6 @@ from pathlib import Path
 from typing import Optional
 
 from config import MAX_FILE_SIZE_MB, SUPPORTED_FILE_TYPES
-
-
 @dataclass
 class ValidationResult:
     is_valid: bool

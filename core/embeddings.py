@@ -59,7 +59,6 @@ def _build_embeddings() -> Embeddings:
     """Construct the embeddings backend according to configuration, with
     automatic fallback to Ollama if the fast backend can't be loaded."""
     global _backend_name
-
     if USE_FAST_BULK_EMBEDDER:
         try:
             embedder = SentenceTransformersEmbeddings(FAST_EMBED_MODEL)

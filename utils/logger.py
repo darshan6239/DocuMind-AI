@@ -10,12 +10,10 @@ _LOGGERS = {}
 LOG_FORMAT = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
 
-
 def get_logger(name: str = "documind") -> logging.Logger:
     """
     Get (or create) a configured logger with both console and rotating
     file handlers.
-
     Args:
         name: Logger name, typically __name__ of the calling module.
 

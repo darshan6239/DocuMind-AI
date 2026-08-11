@@ -87,7 +87,6 @@ def get_embeddings() -> Embeddings:
         _embeddings = _build_embeddings()
     return _embeddings
 
-
 def get_backend_name() -> str:
     """Return a human-readable identifier of the active embedding backend
     (useful for logging / sanity-checking that ingestion and querying

@@ -10,9 +10,7 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
-
 init_history()
-
 selected_source = render_sidebar()
 
 st.title("DocuMind AI")

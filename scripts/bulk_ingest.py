@@ -45,7 +45,6 @@ def parse_args() -> argparse.Namespace:
     )
     return parser.parse_args()
 
-
 def main() -> None:
     args = parse_args()
     root = Path(args.directory).expanduser().resolve()
@@ -55,7 +54,6 @@ def main() -> None:
         sys.exit(1)
 
     print(f"Scanning '{root}' for PDFs (recursive={not args.no_recursive})...")
-
     last_report = {"count": 0, "time": time.perf_counter()}
 
     def report_progress(stats):

@@ -49,6 +49,7 @@ BULK_EXTRACT_WORKERS = int(os.getenv("BULK_EXTRACT_WORKERS", os.cpu_count() or 4
 # How many chunks to accumulate before sending one batched embedding request.
 EMBED_BATCH_SIZE = int(os.getenv("EMBED_BATCH_SIZE", 256))
 
+
 # How many (text, embedding, metadata) triples to write to Chroma per call.
 CHROMA_WRITE_BATCH_SIZE = int(os.getenv("CHROMA_WRITE_BATCH_SIZE", 512))
 

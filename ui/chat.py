@@ -11,7 +11,6 @@ from services.document_service import is_library_empty
 from ui.history import add_message, get_llm_history, get_messages
 from ui.sources import render_sources
 
-
 def render_chat(source_filter: Optional[str] = None) -> None:
     """
     Render the chat interface: existing history plus a chat input box

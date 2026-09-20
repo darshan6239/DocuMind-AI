@@ -8,7 +8,6 @@ from services.upload_service import handle_upload
 from services.ingest_service import ingest_pdf
 from services.document_service import get_library
 
-
 def render_uploader() -> None:
     """Render the file uploader and process any newly uploaded PDFs."""
     already_indexed = {doc.name for doc in get_library()}

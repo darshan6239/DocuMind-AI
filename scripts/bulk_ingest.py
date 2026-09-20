@@ -23,7 +23,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from config import BULK_EXTRACT_WORKERS, CHROMA_WRITE_BATCH_SIZE, EMBED_BATCH_SIZE  # noqa: E402
 from services.bulk_ingest_service import ingest_directory  # noqa: E402
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Bulk-ingest PDFs into DocuMind AI.")
     parser.add_argument("directory", type=str, help="Folder containing PDF files.")

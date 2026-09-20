@@ -64,7 +64,6 @@ REGISTRY_DB_PATH = DATABASE_DIR / "ingest_registry.sqlite3"
 
 # Logging
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
-
 # Create Required Directories
 for directory in [
     DATA_DIR,

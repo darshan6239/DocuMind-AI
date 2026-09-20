@@ -16,7 +16,6 @@ VECTOR_DB_DIR = DATABASE_DIR / "chroma_db"
 
 CACHE_DIR = BASE_DIR / "cache"
 LOG_DIR = BASE_DIR / "logs"
-
 ASSETS_DIR = BASE_DIR / "assets"
 
 # AI Models

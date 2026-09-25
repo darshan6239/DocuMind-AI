@@ -23,7 +23,6 @@ uploaded documents. Do not make anything up.
 - Be clear and concise.
 """
 
-
 def format_context(chunks: List[Document]) -> str:
     """Format retrieved chunks into a single context string with citations."""
     parts = []

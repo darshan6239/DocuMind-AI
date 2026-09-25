@@ -53,7 +53,6 @@ class SentenceTransformersEmbeddings(Embeddings):
     def embed_query(self, text: str) -> List[float]:
         return self.embed_documents([text])[0]
 
-
 def _build_embeddings() -> Embeddings:
     """Construct the embeddings backend according to configuration, with
     automatic fallback to Ollama if the fast backend can't be loaded."""

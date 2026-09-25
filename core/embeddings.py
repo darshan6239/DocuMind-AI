@@ -32,7 +32,6 @@ class SentenceTransformersEmbeddings(Embeddings):
     Chroma expects (embed_documents / embed_query), so it's a drop-in
     replacement for OllamaEmbeddings everywhere in the app.
     """
-
     def __init__(self, model_name: str, batch_size: int = 64):
         from sentence_transformers import SentenceTransformer  # optional dep
 

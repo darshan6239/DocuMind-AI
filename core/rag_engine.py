@@ -32,7 +32,6 @@ def format_context(chunks: List[Document]) -> str:
         parts.append(f"[Source: {source}, page {page}]\n{chunk.page_content}")
     return "\n\n---\n\n".join(parts)
 
-
 def build_messages(question: str, context: str, history: List[Dict[str, str]]) -> List[dict]:
     """Build the message list sent to the chat model."""
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]

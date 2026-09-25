@@ -18,6 +18,7 @@ import sys
 import time
 from pathlib import Path
 
+
 # Allow running as `python scripts/bulk_ingest.py` from the project root.
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 

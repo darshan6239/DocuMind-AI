@@ -32,7 +32,6 @@ def get_logger(name: str = "documind") -> logging.Logger:
         console_handler = logging.StreamHandler(sys.stdout)
         console_handler.setFormatter(formatter)
         logger.addHandler(console_handler)
-
         file_handler = RotatingFileHandler(
             LOG_DIR / "documind.log",
             maxBytes=2_000_000,

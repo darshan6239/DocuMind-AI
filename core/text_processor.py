@@ -88,7 +88,6 @@ def process_pdf(file_path: Path) -> List[Document]:
     logger.info(f"Split '{file_path.name}' into {len(chunks)} chunk(s)")
     return chunks
 
-
 def get_page_count(file_path: Path) -> int:
     """Return the number of pages in a PDF file."""
     pdf = fitz.open(file_path)

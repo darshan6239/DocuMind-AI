@@ -22,7 +22,6 @@ def get_logger(name: str = "documind") -> logging.Logger:
     """
     if name in _LOGGERS:
         return _LOGGERS[name]
-
     logger = logging.getLogger(name)
     logger.setLevel(getattr(logging, LOG_LEVEL.upper(), logging.INFO))
     logger.propagate = False

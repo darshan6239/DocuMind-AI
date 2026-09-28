@@ -46,7 +46,6 @@ def extract_text_from_pdf(file_path: Path) -> List[Document]:
     logger.info(f"Extracted {len(documents)} non-empty page(s) from '{file_path.name}'")
     return documents
 
-
 def chunk_documents(documents: List[Document]) -> List[Document]:
     """
     Split documents into smaller overlapping chunks suitable for embedding.
@@ -68,7 +67,6 @@ def chunk_documents(documents: List[Document]) -> List[Document]:
         chunk.metadata["chunk_id"] = i
 
     return chunks
-
 
 @timed("process_pdf")
 def process_pdf(file_path: Path) -> List[Document]:

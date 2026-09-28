@@ -11,7 +11,6 @@ st.set_page_config(
 init_history()
 selected_source = render_sidebar()
 
-
 st.title("DocuMind AI")
 st.caption("Enterprise Document Intelligence Platform")
 st.divider()

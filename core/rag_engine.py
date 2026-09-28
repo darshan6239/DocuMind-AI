@@ -43,7 +43,6 @@ def build_messages(question: str, context: str, history: List[Dict[str, str]]) -
     messages.append({"role": "user", "content": user_content})
     return messages
 
-
 @timed("rag_answer")
 def generate_answer(
     question: str,
